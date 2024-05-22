@@ -3,7 +3,7 @@ import fs from "fs";
 import path from "path";
 
 const blobServiceClient = BlobServiceClient.fromConnectionString(
-    "DefaultEndpointsProtocol=https;AccountName=vercel123;AccountKey=zBSENVUkSK/o8Z6Z201nN1e/f5i01azhtFaVehD2FJh5h2ksFG/neC9059mCPPuK7Amz/StyQvkt+AStjZTIFA==;EndpointSuffix=core.windows.net"
+    
 );
 
 const containerName = "input";

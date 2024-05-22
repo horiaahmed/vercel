@@ -1,7 +1,7 @@
 import express from "express";
 import { BlobServiceClient } from "@azure/storage-blob";
 
-const connectionString = "DefaultEndpointsProtocol=https;AccountName=vercel123;AccountKey=zBSENVUkSK/o8Z6Z201nN1e/f5i01azhtFaVehD2FJh5h2ksFG/neC9059mCPPuK7Amz/StyQvkt+AStjZTIFA==;EndpointSuffix=core.windows.net";
+const connectionString = ""
 const blobServiceClient = BlobServiceClient.fromConnectionString(connectionString);
 const app = express();
 
